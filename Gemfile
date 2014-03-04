@@ -36,6 +36,11 @@ end
 gem 'ember-rails', '~> 0.14.1'
 gem 'ember-source', '~>1.3.1.1'
 
+group :test, :development do
+gem 'factory_girl_rails'
+gem 'rspec-rails'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
