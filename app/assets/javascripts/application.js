@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery
+//= require js/bs-core.min.js
 //= require handlebars
 //= require ember
 //= require ember-data

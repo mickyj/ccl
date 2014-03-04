@@ -12,4 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require 'bs-growl-notifications.min.css'
+ *= require 'bootstrap.css'
  */
