@@ -39,6 +39,11 @@ gem 'ember-source', '~>1.3.1.1'
 group :test, :development do
 gem 'factory_girl_rails'
 gem 'rspec-rails'
+gem 'growl'
+gem 'guard-rspec'
+gem 'guard-teaspoon'
+gem 'teaspoon'
+
 end
 
 # Use ActiveModel has_secure_password

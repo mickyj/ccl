@@ -21,6 +21,11 @@
 //= require ccl
 
 // for more details see: http://emberjs.com/guides/application/
+
+<% if Rails.env.development? %>
+  Ember.LOG_TRANSITIONS = true;
+<% end %>
+
 Ccl = Ember.Application.create();
 
 //= require_tree .
