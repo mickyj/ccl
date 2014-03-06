@@ -21,6 +21,6 @@ test('contacts route', function () {
       andThen(function () {
       var current_route = Ccl.__container__.lookup('controller:appli\
 cation').currentRouteName;
-      equal(current_route, 'contacts', 'Expected contacts got:' + current_route);
+      equal(current_route, 'contacts.index', 'Expected contacts got:' + current_route);
   });
 });

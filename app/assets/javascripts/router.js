@@ -1,6 +1,7 @@
 // For more information see: http://emberjs.com/guides/routing/
 
-Ccl.Router.map(function() {
-  // this.resource('posts');
-  this.resource('contacts');
+Ccl.Router.map(function () {
+  this.resource('contacts', function () {
+  });
 });
+
